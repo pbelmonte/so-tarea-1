@@ -23,7 +23,6 @@ void inicializar(int p) {
 	m = nMakeMonitor();
 	for (int i = 0; i < p; ++i)	{
 		enPargua[i] = i;
-		nextEmptyPargua++;
 	}
 }
 
