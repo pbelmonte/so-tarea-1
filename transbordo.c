@@ -13,7 +13,8 @@ void inicializar(int p) {
 }
 
 void finalizar() {
-
+	free(enPargua);
+	nDestroyMonitor(m);
 }
 
 void transbordoAChacao(int v) {
